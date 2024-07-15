@@ -1,4 +1,6 @@
-﻿namespace C42_G02_OOP03
+﻿using System;
+
+namespace C42_G02_OOP03
 {
     internal class Program
     {
@@ -71,7 +73,14 @@
             //typeB.Myfunc02();
             #endregion
 
-            #region
+            #region V3
+            //TypeA refBase;
+            //refBase = new TypeB(1,2);
+            //refBase.A = 10;
+            //refBase.B = 20;
+            //refBase.Myfunc01();
+            //refBase.Myfunc02();
+
             #endregion
 
             #region
