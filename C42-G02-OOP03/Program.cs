@@ -57,7 +57,18 @@
             //Console.WriteLine('3');
             #endregion
 
-            #region
+            #region V2
+            //TypeA typeA =new TypeA(1);
+            //typeA.A = 10;
+            //typeA.Myfunc01();
+            //typeA.Myfunc02();
+
+
+            //typeB typeB=new typeB(1,2);
+            //typeB.A = 10;
+            //typeB.B = 20;
+            //typeB.Myfunc01();
+            //typeB.Myfunc02();
             #endregion
 
             #region
