@@ -83,7 +83,24 @@ namespace C42_G02_OOP03
 
             #endregion
 
-            #region
+            #region V4
+            //TypeB ChildRef = new TypeA();
+            //TypeB ChildRef =(TypeB) new TypeA(1);
+
+            //TypeA typeA = new TypeA(1);
+            //TypeB typeB =(TypeB) typeA;
+
+            //Console.WriteLine(typeB.A);
+            //Console.WriteLine(typeB.B);
+
+            //TypeA typeA= new TypeB(1,2);
+            //TypeB typeB=(TypeB) TypeA;
+            //Console.WriteLine(typeB.A);
+            //Console.WriteLine(typeB.B);
+
+            //object o = "2";
+            //int x = (int)o;
+            //Console.WriteLine(x);
             #endregion
         }
     }
