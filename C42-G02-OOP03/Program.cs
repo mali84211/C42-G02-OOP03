@@ -5,6 +5,14 @@ namespace C42_G02_OOP03
     internal class Program
     {
         #region
+        public static void processEmployee(FulltimeEmployee employee)
+        {
+            if(employee is not null)
+            {
+                employee.GetEmployeeType();
+                employee.GetEmployeeData();
+            }
+        }
         public static int Sum(int x, int y)
         {
             return x + y;
@@ -102,6 +110,23 @@ namespace C42_G02_OOP03
             //int x = (int)o;
             //Console.WriteLine(x);
             #endregion
+            
+            #region V5
+            //FulltimeEmployee fulltimeEmployee=new FulltimeEmployee(10,"ali",30,6000);
+            //processEmployee(fulltimeEmployee);
+
+            //ParttimeEmployee parttimeEmployee = new ParttimeEmployee()
+            //{
+            //    Id = 20,
+            //    Name = "mona",
+            //    Age=25,
+            //    HourRate=2.5M,
+            //    CountOfHour=20  
+            //};
+            //processEmployee(parttimeEmployee);
+            //employee = new PartEmployee();
+            #endregion
+
         }
     }
 }
